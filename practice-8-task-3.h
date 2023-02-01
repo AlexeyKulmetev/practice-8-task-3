@@ -15,3 +15,4 @@ void print_struct(std::vector<numSet>& vec);
 void sort_struct(std::vector<numSet>* vec, bool(*func)(numSet a, numSet b));
 bool ascending(numSet a, numSet b);
 bool descending(numSet a, numSet b);
+bool executionTime_mesurign(std::vector<numSet>* vec, bool(*func)(numSet* a, numSet* b));
